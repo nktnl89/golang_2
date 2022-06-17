@@ -1,0 +1,15 @@
+goos: windows
+goarch: amd64
+pkg: golang_2/ex5/ex5_3/mut
+cpu: AMD Ryzen 5 PRO 4650U with Radeon Graphics
+Benchmark10WritingMut
+Benchmark10WritingMut-12
+   98727             11250 ns/op             677 B/op         22 allocs/op
+Benchmark50WritingMut
+Benchmark50WritingMut-12
+   98062             11259 ns/op             731 B/op         23 allocs/op
+Benchmark90WritingMut
+Benchmark90WritingMut-12
+  102097             11137 ns/op             755 B/op         23 allocs/op
+PASS
+ok      golang_2/ex5/ex5_3/mut  3.995s
